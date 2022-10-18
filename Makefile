@@ -27,7 +27,7 @@ LIBS    = -lintrafont -lglib2d -ljpeg -lpng16 -lstdc++ -lz -lpspgu -lpspvram -lp
 
 EXTRA_TARGETS   = EBOOT.PBP
 PSP_EBOOT_TITLE = PSPickr v$(VERSION_MAJOR).$(VERSION_MINOR)$(VERSION_MICRO)
-# PSP_EBOOT_ICON  = ICON0.PNG
+PSP_EBOOT_ICON  = ICON0.png
 
 PSPSDK=$(shell psp-config --pspsdk-path)
 include $(PSPSDK)/lib/build.mak
